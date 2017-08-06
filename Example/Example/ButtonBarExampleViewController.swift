@@ -29,25 +29,45 @@ class ButtonBarExampleViewController: ButtonBarPagerTabStripViewController {
     
     
     override func viewDidLoad() {
+        settings.style.buttonBarItemBackgroundColor = .white
+        settings.style.selectedBarBackgroundColor = UIColor(hex: "#fdc050")
+        
+        
+        settings.style.buttonBarItemTitleColor = UIColor(hex: "#716f7f")
+        settings.style.buttonBarItemFont = .boldSystemFont(ofSize: 14)
+        
+        settings.style.buttonBarSubItemFont = .systemFont(ofSize: 12)
+        
+        
+        settings.style.selectedBarHeight = 2.0
+        
+        settings.style.notSelectedBarHeight = 1.0
+        settings.style.notSelectedBarBackgroundColor = UIColor(hex:"#716f7f")
+        
+        
+        settings.style.buttonBarMinimumLineSpacing = 0
+        settings.style.buttonBarLeftContentInset = 0
+        settings.style.buttonBarRightContentInset = 0
+        settings.style.buttonBarItemLeftRightMargin = 0
+        settings.style.buttonBarMinimumInteritemSpacing = 0
+        
+        settings.style.buttonBarItemSubTitleColor = UIColor(hex:"ffac28")
+        
+        buttonBarView.backgroundColor = .white
         super.viewDidLoad()
         
-        buttonBarView.selectedBar.backgroundColor = .orange
-        buttonBarView.backgroundColor = UIColor(red: 7/255, green: 185/255, blue: 155/255, alpha: 1)
+        buttonBarView.selectedBar.backgroundColor = UIColor(hex:"#5c4698")
+        
     }
     
     // MARK: - PagerTabStripDataSource
     
     override func viewControllers(for pagerTabStripController: PagerTabStripViewController) -> [UIViewController] {
-        let child_1 = TableChildExampleViewController(style: .plain, itemInfo: "Table View")
-        let child_2 = ChildExampleViewController(itemInfo: IndicatorInfo(title: "Title", subtitle: "My Positivity Stuff") )
-        let child_3 = TableChildExampleViewController(style: .grouped, itemInfo: "Table View 2")
-        let child_4 = ChildExampleViewController(itemInfo: "View 2")
-        let child_5 = TableChildExampleViewController(style: .plain, itemInfo: "Table View 3")
-        let child_6 = ChildExampleViewController(itemInfo: "View 3")
-        let child_7 = TableChildExampleViewController(style: .grouped, itemInfo: "Table View 4")
-        let child_8 = ChildExampleViewController(itemInfo: "View 4")
         
-        
-        return [child_1, child_2, child_3, child_4, child_5, child_6, child_7, child_8]
+        let child_1 = TableChildExampleViewController(style: .plain, itemInfo: " Table View ")
+        let child_2 = ChildExampleViewController(itemInfo: IndicatorInfo(title: " Title ", subtitle: " My Positivity Stuff ") )
+        let child_3 = TableChildExampleViewController(style: .grouped, itemInfo: " Table View 2 ")
+        let child_4 = ChildExampleViewController(itemInfo: " View 2 ")
+        return [child_1, child_2, child_3, child_4]
     }
 }

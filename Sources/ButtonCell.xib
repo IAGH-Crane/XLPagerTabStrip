@@ -11,14 +11,14 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="zg4-fX-zUF" customClass="ButtonBarViewCell" customModule="XLPagerTabStrip" customModuleProvider="target">
-            <rect key="frame" x="0.0" y="0.0" width="80" height="40"/>
+            <rect key="frame" x="0.0" y="0.0" width="80" height="131"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
-                <rect key="frame" x="0.0" y="0.0" width="80" height="40"/>
+                <rect key="frame" x="0.0" y="0.0" width="80" height="131"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="FFY-HH-4ii">
-                        <rect key="frame" x="21.5" y="1" width="37.5" height="38"/>
+                        <rect key="frame" x="21.5" y="46.5" width="37.5" height="38"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s7f-rk-sQl">
                                 <rect key="frame" x="0.0" y="0.0" width="37.5" height="17"/>
@@ -39,27 +39,40 @@
                         </subviews>
                     </stackView>
                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="tFG-yJ-6Th">
-                        <rect key="frame" x="22.5" y="2.5" width="35" height="35"/>
+                        <rect key="frame" x="22.5" y="48" width="35" height="35"/>
                         <constraints>
                             <constraint firstAttribute="width" constant="35" id="VRw-5F-5WY"/>
                             <constraint firstAttribute="height" constant="35" id="ojk-Ug-Lgh"/>
                         </constraints>
                     </imageView>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="w9S-6Y-ODF" userLabel="line">
+                        <rect key="frame" x="-50" y="130" width="180" height="1"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="Twl-Bg-zVh"/>
+                        </constraints>
+                    </view>
                 </subviews>
             </view>
             <color key="backgroundColor" red="0.027450980390000001" green="0.72549019609999998" blue="0.60784313729999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
+                <constraint firstAttribute="bottom" secondItem="w9S-6Y-ODF" secondAttribute="bottom" id="40z-K1-7vm"/>
                 <constraint firstItem="tFG-yJ-6Th" firstAttribute="centerY" secondItem="zg4-fX-zUF" secondAttribute="centerY" id="5so-ZP-gRs"/>
                 <constraint firstItem="tFG-yJ-6Th" firstAttribute="centerX" secondItem="zg4-fX-zUF" secondAttribute="centerX" id="9em-NR-hoa"/>
+                <constraint firstAttribute="trailing" secondItem="w9S-6Y-ODF" secondAttribute="trailing" constant="-50" id="Hpm-bP-RA0"/>
                 <constraint firstItem="FFY-HH-4ii" firstAttribute="centerY" secondItem="zg4-fX-zUF" secondAttribute="centerY" id="N9u-R5-YBr"/>
                 <constraint firstItem="FFY-HH-4ii" firstAttribute="centerX" secondItem="zg4-fX-zUF" secondAttribute="centerX" id="RBl-Wt-rbd"/>
+                <constraint firstItem="w9S-6Y-ODF" firstAttribute="leading" secondItem="zg4-fX-zUF" secondAttribute="leading" constant="-50" id="hgI-tq-7iz"/>
             </constraints>
+            <size key="customSize" width="80" height="131"/>
             <connections>
                 <outlet property="imageView" destination="tFG-yJ-6Th" id="Odb-dR-tf4"/>
                 <outlet property="label" destination="s7f-rk-sQl" id="4gU-tb-BMB"/>
+                <outlet property="line" destination="w9S-6Y-ODF" id="c5q-fe-TmN"/>
+                <outlet property="lineHeight" destination="Twl-Bg-zVh" id="zv3-Gv-q0F"/>
                 <outlet property="subLabel" destination="XvI-xE-5HG" id="D2d-YU-xB3"/>
             </connections>
-            <point key="canvasLocation" x="307" y="541"/>
+            <point key="canvasLocation" x="307" y="586.5"/>
         </collectionViewCell>
     </objects>
 </document>

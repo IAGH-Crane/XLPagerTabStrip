@@ -14,6 +14,7 @@
 		287D0A7D1C4B7B55004566D6 /* XLPagerTabStrip.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 287D0A7A1C4B7B26004566D6 /* XLPagerTabStrip.framework */; };
 		287D0A7E1C4B7B55004566D6 /* XLPagerTabStrip.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 287D0A7A1C4B7B26004566D6 /* XLPagerTabStrip.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		28F828D01C4B714D00330CF4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F828CF1C4B714D00330CF4 /* AppDelegate.swift */; };
+		308742351F37A6EB005A2458 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308742341F37A6EB005A2458 /* UIColor.swift */; };
 		CB3697BF1C5177B4001FC5F8 /* ButtonBarExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3697BE1C5177B4001FC5F8 /* ButtonBarExampleViewController.swift */; };
 		CB71C6F31C4FDDCE008EC806 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB71C6F21C4FDDCE008EC806 /* PostCell.swift */; };
 		CB86ED801C4D6F0D00DA463B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB86ED6F1C4D6F0D00DA463B /* Assets.xcassets */; };
@@ -79,6 +80,7 @@
 		28F828DB1C4B714D00330CF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = Example/Info.plist; sourceTree = "<group>"; };
 		28F828E01C4B714D00330CF4 /* ExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		28F828E61C4B714D00330CF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = Info.plist; path = Example/ExampleUITests/Info.plist; sourceTree = "<group>"; };
+		308742341F37A6EB005A2458 /* UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
 		CB3697BE1C5177B4001FC5F8 /* ButtonBarExampleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ButtonBarExampleViewController.swift; path = Example/Example/ButtonBarExampleViewController.swift; sourceTree = SOURCE_ROOT; };
 		CB71C6F21C4FDDCE008EC806 /* PostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PostCell.swift; path = Example/Helpers/PostCell.swift; sourceTree = "<group>"; };
 		CB86ED6F1C4D6F0D00DA463B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = Example/Assets.xcassets; sourceTree = "<group>"; };
@@ -173,9 +175,18 @@
 			path = ExampleUITests;
 			sourceTree = "<group>";
 		};
+		308742331F37A6DC005A2458 /* Extionsion */ = {
+			isa = PBXGroup;
+			children = (
+				308742341F37A6EB005A2458 /* UIColor.swift */,
+			);
+			name = Extionsion;
+			sourceTree = "<group>";
+		};
 		CB86ED6C1C4D6ED400DA463B /* Demo */ = {
 			isa = PBXGroup;
 			children = (
+				308742331F37A6DC005A2458 /* Extionsion */,
 				285DA2841C569A3E000908CA /* ChildControllers */,
 				285718151C568285004D7E7B /* Helpers */,
 				CB86ED701C4D6F0D00DA463B /* Base.lproj */,
@@ -329,6 +340,7 @@
 				CB3697BF1C5177B4001FC5F8 /* ButtonBarExampleViewController.swift in Sources */,
 				285DA2881C569AA2000908CA /* ChildExampleViewController.swift in Sources */,
 				285718181C568336004D7E7B /* DataProvider.swift in Sources */,
+				308742351F37A6EB005A2458 /* UIColor.swift in Sources */,
 				285DA2891C569AA2000908CA /* TableChildExampleViewController.swift in Sources */,
 				CB71C6F31C4FDDCE008EC806 /* PostCell.swift in Sources */,
 			);

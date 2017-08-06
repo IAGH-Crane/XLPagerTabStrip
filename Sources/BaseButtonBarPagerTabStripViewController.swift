@@ -334,6 +334,10 @@ open class ExampleBaseButtonBarPagerTabStripViewController: BaseButtonBarPagerTa
     }
     
     open override func configure(cell: ButtonBarViewCell, for indicatorInfo: IndicatorInfo) {
+        
+        cell.lineHeight.constant = settings.style.notSelectedBarHeight
+        cell.line.backgroundColor = settings.style.notSelectedBarBackgroundColor
+        
         cell.label.text     = indicatorInfo.title
         cell.subLabel.text  = indicatorInfo.subtitle
         if let image = indicatorInfo.image {

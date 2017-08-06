@@ -50,6 +50,11 @@ public struct ButtonBarPagerTabStripSettings {
         
         public var selectedBarBackgroundColor = UIColor.black
         public var selectedBarHeight: CGFloat = 5
+        
+        public var notSelectedBarHeight: CGFloat = 0
+        public var notSelectedBarBackgroundColor = UIColor.black
+        
+        
         public var selectedBarVerticalAlignment: SelectedBarVerticalAlignment = .bottom
         
         public var buttonBarItemBackgroundColor: UIColor?
@@ -329,6 +334,9 @@ open class ButtonBarPagerTabStripViewController: PagerTabStripViewController, Pa
         cell.subLabel.font = settings.style.buttonBarSubItemFont
         cell.subLabel.textColor = settings.style.buttonBarItemSubTitleColor ?? cell.subLabel.textColor
         
+        
+        cell.lineHeight.constant = settings.style.notSelectedBarHeight
+        cell.line.backgroundColor = settings.style.notSelectedBarBackgroundColor
         
         cell.contentView.backgroundColor = settings.style.buttonBarItemBackgroundColor ?? cell.contentView.backgroundColor
         cell.backgroundColor = settings.style.buttonBarItemBackgroundColor ?? cell.backgroundColor

@@ -30,4 +30,7 @@ open class ButtonBarViewCell: UICollectionViewCell {
     @IBOutlet open var label: UILabel!
     @IBOutlet open var subLabel: UILabel!
     
+    @IBOutlet open var lineHeight: NSLayoutConstraint!
+    @IBOutlet open var line: UIView!
+    
 }
