@@ -18,8 +18,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         UITabBar.appearance().tintColor = UIColor.init(red: 0.027, green: 0.725, blue: 0.608, alpha: 1)
         UIApplication.shared.statusBarStyle = .lightContent
 
-        _ = YoutubeExampleViewController(nibName: nil, bundle: nil)
-
         return true
     }
 

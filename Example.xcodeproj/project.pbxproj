@@ -10,26 +10,17 @@
 		285718181C568336004D7E7B /* DataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285718171C568336004D7E7B /* DataProvider.swift */; };
 		285DA2881C569AA2000908CA /* ChildExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285DA2861C569AA2000908CA /* ChildExampleViewController.swift */; };
 		285DA2891C569AA2000908CA /* TableChildExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285DA2871C569AA2000908CA /* TableChildExampleViewController.swift */; };
-		285DA28C1C592154000908CA /* InstagramExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285DA28B1C592154000908CA /* InstagramExampleViewController.swift */; };
-		285DA2901C59C587000908CA /* SpotifyExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285DA28F1C59C587000908CA /* SpotifyExampleViewController.swift */; };
-		285DA2931C5A596B000908CA /* YoutubeExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285DA2921C5A596B000908CA /* YoutubeExampleViewController.swift */; };
-		285DA2951C5A6A00000908CA /* YoutubeIconCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285DA2941C5A6A00000908CA /* YoutubeIconCell.swift */; };
-		285DA2971C5A6A36000908CA /* YoutubeIconCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 285DA2961C5A6A36000908CA /* YoutubeIconCell.xib */; };
 		287D0A721C4B7877004566D6 /* ExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287D0A711C4B7877004566D6 /* ExampleUITests.swift */; };
 		287D0A7D1C4B7B55004566D6 /* XLPagerTabStrip.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 287D0A7A1C4B7B26004566D6 /* XLPagerTabStrip.framework */; };
 		287D0A7E1C4B7B55004566D6 /* XLPagerTabStrip.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 287D0A7A1C4B7B26004566D6 /* XLPagerTabStrip.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		28F828D01C4B714D00330CF4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F828CF1C4B714D00330CF4 /* AppDelegate.swift */; };
-		CB2125DE1C52A80E002DAF42 /* TwitterExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB2125DD1C52A80E002DAF42 /* TwitterExampleViewController.swift */; };
 		CB3697BF1C5177B4001FC5F8 /* ButtonBarExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3697BE1C5177B4001FC5F8 /* ButtonBarExampleViewController.swift */; };
-		CB71C6EB1C4EB964008EC806 /* SegmentedExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB71C6EA1C4EB964008EC806 /* SegmentedExampleViewController.swift */; };
 		CB71C6F31C4FDDCE008EC806 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB71C6F21C4FDDCE008EC806 /* PostCell.swift */; };
 		CB86ED801C4D6F0D00DA463B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB86ED6F1C4D6F0D00DA463B /* Assets.xcassets */; };
 		CB86ED811C4D6F0D00DA463B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB86ED711C4D6F0D00DA463B /* LaunchScreen.storyboard */; };
 		CB86ED941C4E89DD00DA463B /* PostCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB86ED931C4E89DD00DA463B /* PostCell.xib */; };
-		CBA0A1FF1C50304500C5748C /* BarExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA0A1FE1C50304500C5748C /* BarExampleViewController.swift */; };
 		CBA0A2021C5032E100C5748C /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBA0A2011C5032E100C5748C /* Storyboard.storyboard */; };
 		CBA0A2041C5033B400C5748C /* ReloadExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA0A2031C5033B400C5748C /* ReloadExampleViewController.swift */; };
-		CBBD435F1C5274AE001A748E /* NavButtonBarExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBBD435E1C5274AE001A748E /* NavButtonBarExampleViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,11 +72,6 @@
 		285718171C568336004D7E7B /* DataProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DataProvider.swift; path = Example/Helpers/DataProvider.swift; sourceTree = "<group>"; };
 		285DA2861C569AA2000908CA /* ChildExampleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChildExampleViewController.swift; path = Example/ChildControllers/ChildExampleViewController.swift; sourceTree = "<group>"; };
 		285DA2871C569AA2000908CA /* TableChildExampleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TableChildExampleViewController.swift; path = Example/ChildControllers/TableChildExampleViewController.swift; sourceTree = "<group>"; };
-		285DA28B1C592154000908CA /* InstagramExampleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = InstagramExampleViewController.swift; path = Example/Instagram/InstagramExampleViewController.swift; sourceTree = "<group>"; };
-		285DA28F1C59C587000908CA /* SpotifyExampleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpotifyExampleViewController.swift; sourceTree = "<group>"; };
-		285DA2921C5A596B000908CA /* YoutubeExampleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = YoutubeExampleViewController.swift; path = Example/Youtube/YoutubeExampleViewController.swift; sourceTree = "<group>"; };
-		285DA2941C5A6A00000908CA /* YoutubeIconCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = YoutubeIconCell.swift; path = Example/Youtube/YoutubeIconCell.swift; sourceTree = "<group>"; };
-		285DA2961C5A6A36000908CA /* YoutubeIconCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = YoutubeIconCell.xib; path = Example/Youtube/YoutubeIconCell.xib; sourceTree = "<group>"; };
 		287D0A711C4B7877004566D6 /* ExampleUITests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ExampleUITests.swift; path = Example/ExampleUITests/ExampleUITests.swift; sourceTree = SOURCE_ROOT; };
 		287D0A741C4B7B26004566D6 /* XLPagerTabStrip.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = XLPagerTabStrip.xcodeproj; sourceTree = "<group>"; };
 		28F828CC1C4B714D00330CF4 /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -93,17 +79,13 @@
 		28F828DB1C4B714D00330CF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = Example/Info.plist; sourceTree = "<group>"; };
 		28F828E01C4B714D00330CF4 /* ExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		28F828E61C4B714D00330CF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = Info.plist; path = Example/ExampleUITests/Info.plist; sourceTree = "<group>"; };
-		CB2125DD1C52A80E002DAF42 /* TwitterExampleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TwitterExampleViewController.swift; path = Example/TwitterExampleViewController.swift; sourceTree = "<group>"; };
 		CB3697BE1C5177B4001FC5F8 /* ButtonBarExampleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ButtonBarExampleViewController.swift; path = Example/Example/ButtonBarExampleViewController.swift; sourceTree = SOURCE_ROOT; };
-		CB71C6EA1C4EB964008EC806 /* SegmentedExampleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SegmentedExampleViewController.swift; path = Example/SegmentedExampleViewController.swift; sourceTree = "<group>"; };
 		CB71C6F21C4FDDCE008EC806 /* PostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PostCell.swift; path = Example/Helpers/PostCell.swift; sourceTree = "<group>"; };
 		CB86ED6F1C4D6F0D00DA463B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = Example/Assets.xcassets; sourceTree = "<group>"; };
 		CB86ED721C4D6F0D00DA463B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CB86ED931C4E89DD00DA463B /* PostCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PostCell.xib; path = Example/Helpers/PostCell.xib; sourceTree = "<group>"; };
-		CBA0A1FE1C50304500C5748C /* BarExampleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BarExampleViewController.swift; path = Example/BarExampleViewController.swift; sourceTree = "<group>"; };
 		CBA0A2011C5032E100C5748C /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
 		CBA0A2031C5033B400C5748C /* ReloadExampleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ReloadExampleViewController.swift; path = Example/ReloadExampleViewController.swift; sourceTree = "<group>"; };
-		CBBD435E1C5274AE001A748E /* NavButtonBarExampleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NavButtonBarExampleViewController.swift; path = Example/NavButtonBarExampleViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,33 +124,6 @@
 				285DA2871C569AA2000908CA /* TableChildExampleViewController.swift */,
 			);
 			name = ChildControllers;
-			sourceTree = "<group>";
-		};
-		285DA28A1C59210F000908CA /* Instagram  */ = {
-			isa = PBXGroup;
-			children = (
-				285DA28B1C592154000908CA /* InstagramExampleViewController.swift */,
-			);
-			name = "Instagram ";
-			sourceTree = "<group>";
-		};
-		285DA28E1C59C587000908CA /* Spotify */ = {
-			isa = PBXGroup;
-			children = (
-				285DA28F1C59C587000908CA /* SpotifyExampleViewController.swift */,
-			);
-			name = Spotify;
-			path = Example/Spotify;
-			sourceTree = "<group>";
-		};
-		285DA2911C5A5945000908CA /* Youtube */ = {
-			isa = PBXGroup;
-			children = (
-				285DA2921C5A596B000908CA /* YoutubeExampleViewController.swift */,
-				285DA2941C5A6A00000908CA /* YoutubeIconCell.swift */,
-				285DA2961C5A6A36000908CA /* YoutubeIconCell.xib */,
-			);
-			name = Youtube;
 			sourceTree = "<group>";
 		};
 		287D0A751C4B7B26004566D6 /* Products */ = {
@@ -221,19 +176,12 @@
 		CB86ED6C1C4D6ED400DA463B /* Demo */ = {
 			isa = PBXGroup;
 			children = (
-				285DA2911C5A5945000908CA /* Youtube */,
-				285DA28E1C59C587000908CA /* Spotify */,
-				285DA28A1C59210F000908CA /* Instagram  */,
 				285DA2841C569A3E000908CA /* ChildControllers */,
 				285718151C568285004D7E7B /* Helpers */,
 				CB86ED701C4D6F0D00DA463B /* Base.lproj */,
 				CB86ED6F1C4D6F0D00DA463B /* Assets.xcassets */,
-				CB71C6EA1C4EB964008EC806 /* SegmentedExampleViewController.swift */,
 				CB3697BE1C5177B4001FC5F8 /* ButtonBarExampleViewController.swift */,
-				CBA0A1FE1C50304500C5748C /* BarExampleViewController.swift */,
 				CBA0A2031C5033B400C5748C /* ReloadExampleViewController.swift */,
-				CBBD435E1C5274AE001A748E /* NavButtonBarExampleViewController.swift */,
-				CB2125DD1C52A80E002DAF42 /* TwitterExampleViewController.swift */,
 			);
 			name = Demo;
 			sourceTree = "<group>";
@@ -359,7 +307,6 @@
 				CB86ED941C4E89DD00DA463B /* PostCell.xib in Resources */,
 				CBA0A2021C5032E100C5748C /* Storyboard.storyboard in Resources */,
 				CB86ED811C4D6F0D00DA463B /* LaunchScreen.storyboard in Resources */,
-				285DA2971C5A6A36000908CA /* YoutubeIconCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -377,21 +324,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				285DA28C1C592154000908CA /* InstagramExampleViewController.swift in Sources */,
-				CB71C6EB1C4EB964008EC806 /* SegmentedExampleViewController.swift in Sources */,
 				28F828D01C4B714D00330CF4 /* AppDelegate.swift in Sources */,
 				CBA0A2041C5033B400C5748C /* ReloadExampleViewController.swift in Sources */,
-				285DA2901C59C587000908CA /* SpotifyExampleViewController.swift in Sources */,
 				CB3697BF1C5177B4001FC5F8 /* ButtonBarExampleViewController.swift in Sources */,
 				285DA2881C569AA2000908CA /* ChildExampleViewController.swift in Sources */,
-				CBA0A1FF1C50304500C5748C /* BarExampleViewController.swift in Sources */,
 				285718181C568336004D7E7B /* DataProvider.swift in Sources */,
-				CB2125DE1C52A80E002DAF42 /* TwitterExampleViewController.swift in Sources */,
 				285DA2891C569AA2000908CA /* TableChildExampleViewController.swift in Sources */,
-				CBBD435F1C5274AE001A748E /* NavButtonBarExampleViewController.swift in Sources */,
 				CB71C6F31C4FDDCE008EC806 /* PostCell.swift in Sources */,
-				285DA2931C5A596B000908CA /* YoutubeExampleViewController.swift in Sources */,
-				285DA2951C5A6A00000908CA /* YoutubeIconCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

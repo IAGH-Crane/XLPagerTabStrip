@@ -326,10 +326,6 @@ open class ExampleBaseButtonBarPagerTabStripViewController: BaseButtonBarPagerTa
             label.translatesAutoresizingMaskIntoConstraints = false
             label.font = self?.settings.style.buttonBarItemFont ?? label.font
             
-            print("start")
-            print(childItemInfo.subtitle)
-            print(childItemInfo.title)
-            
             
             label.text =  (childItemInfo.subtitle?.characters.count ?? 0 ) > (childItemInfo.title?.characters.count ?? 0) ? childItemInfo.subtitle : childItemInfo.title
             let labelSize = label.intrinsicContentSize
