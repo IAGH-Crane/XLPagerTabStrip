@@ -46,8 +46,10 @@ class ButtonBarExampleViewController: ButtonBarPagerTabStripViewController {
         
         
         settings.style.buttonBarMinimumLineSpacing = 0
+        
         settings.style.buttonBarLeftContentInset = 0
         settings.style.buttonBarRightContentInset = 0
+        
         settings.style.buttonBarItemLeftRightMargin = 0
         settings.style.buttonBarMinimumInteritemSpacing = 0
         
@@ -64,10 +66,11 @@ class ButtonBarExampleViewController: ButtonBarPagerTabStripViewController {
     
     override func viewControllers(for pagerTabStripController: PagerTabStripViewController) -> [UIViewController] {
         
-        let child_1 = TableChildExampleViewController(style: .plain, itemInfo: " Table View ")
-        let child_2 = ChildExampleViewController(itemInfo: IndicatorInfo(title: " Title ", subtitle: " My Positivity Stuff ") )
-        let child_3 = TableChildExampleViewController(style: .grouped, itemInfo: " Table View 2 ")
-        let child_4 = ChildExampleViewController(itemInfo: " View 2 ")
-        return [child_1, child_2, child_3, child_4]
+        let child_1 = TableChildExampleViewController(style: .plain, itemInfo: "    Public Activity ")
+        let child_2 = ChildExampleViewController(itemInfo: IndicatorInfo(title: " Private Activity ", subtitle: " My Positivity Print ") )
+        let child_3 = TableChildExampleViewController(style: .grouped, itemInfo: " Your Uploads ")
+        let child_4 = ChildExampleViewController(itemInfo: " Followers ")
+        let child_5 = ChildExampleViewController(itemInfo: " Following    ")
+        return [child_1, child_2, child_3, child_4, child_5]
     }
 }
