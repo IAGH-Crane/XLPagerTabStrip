@@ -25,38 +25,44 @@
 import Foundation
 
 public struct IndicatorInfo {
-
+    
     public var title: String?
+    public var subtitle: String?
     public var image: UIImage?
     public var highlightedImage: UIImage?
-
+    
     public init(title: String?) {
         self.title = title
     }
-
+    
+    public init(title: String?, subtitle: String?) {
+        self.title      = title
+        self.subtitle   = subtitle
+    }
+    
     public init(image: UIImage?, highlightedImage: UIImage? = nil) {
         self.image = image
         self.highlightedImage = highlightedImage
     }
-
+    
     public init(title: String?, image: UIImage?, highlightedImage: UIImage? = nil) {
         self.title = title
         self.image = image
         self.highlightedImage = highlightedImage
     }
-
+    
 }
 
 extension IndicatorInfo : ExpressibleByStringLiteral {
-
+    
     public init(stringLiteral value: String) {
         title = value
     }
-
+    
     public init(extendedGraphemeClusterLiteral value: String) {
         title = value
     }
-
+    
     public init(unicodeScalarLiteral value: String) {
         title = value
     }
